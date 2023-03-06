@@ -103,3 +103,4 @@ $ python pp_p_xgb.py
 
 ## 5.INFERENCE
 * Since this is a code competition, the inference code is available in kaggle notebook.
+* https://www.kaggle.com/code/nvnnghia/nfl3-ensemble-w-pp-sub?scriptVersionId=121109062
