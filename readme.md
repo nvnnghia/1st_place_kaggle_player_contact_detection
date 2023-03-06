@@ -56,23 +56,19 @@ $ python create_cache15.py
 │ ├── ...  
 ├── cnn   
 │ ├── configs   
-│   ├── r50ir_csn_c11_m1_d2_G_all.py  
-│   ├── r50ir_csn_c15_m1_d2_all.py   
-│   ├── ...   
+│ │ ├── r50ir_csn_c11_m1_d2_G_all.py  
+│ │ ├── r50ir_csn_c15_m1_d2_all.py   
+│ │ ├── ...   
 │ ├── models   
-│   ├── model_csn1.py  
-│   ├── resnet3d_csn.py   
+│ │ ├── model_csn1.py  
+│ │ ├── resnet3d_csn.py   
 │ ├── dataset   
-│   ├── dataset_3d_3ch_v2.py  
-│ ├── cache 
-│   ├── b5_bin005_sed_3ch_r6  
-│   ├── b5_bin005_sed_3ch_r7  
-│   ├── ...  
-│ ├── cache   
-│   ├── cache11_G  
-│   ├── cache15_G  
-│   ├── cache15  
-│ ├── pretrained/
+│ │ ├── dataset_3d_3ch_v2.py  
+│ ├── cache     
+│ │ ├── cache11_G  
+│ │ ├── cache15_G  
+│ │ ├── cache15  
+│ ├── pretrained/   
 │ ├── train.py   
 │ ├── inference.py   
 │ ├── create_cache11_G.py   
