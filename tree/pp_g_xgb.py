@@ -152,8 +152,8 @@ def feature_engineering():
 
     trk_dict = np.load('../data/trk_dict.npy', allow_pickle=True).item()
 
-    pred_step_dict = get_oof('r50ir_csn_c11_m1_d2_G')
-    pred_step_dict2 = get_oof('r50ir_csn_c15_m1_d2_G')
+    pred_step_dict = get_oof('r50ir_csn_c11_m1_d2_G_all')
+    pred_step_dict2 = get_oof('r50ir_csn_c15_m1_d2_G_all')
 
     pred_step_dict1 = {}
     for i, row in train_df.iterrows():

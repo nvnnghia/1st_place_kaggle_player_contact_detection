@@ -162,7 +162,7 @@ def feature_engineering():
     train_df['vid'] = train_df['contact_id'].apply(lambda x: '_'.join(x.split('_')[:2]))
     print(train_df.shape)
 
-    pred_step_dict1 = get_oof('r50ir_csn_c15_m1_d2', True, suf='_xgb')
+    pred_step_dict1 = get_oof('r50ir_csn_c15_m1_d2_all', True, suf='_xgb')
 
     xgb_dict = get_meta('pre_p_xgb/model/xgb_oof_pair_fe.csv')
 
